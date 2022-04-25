@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/ahmdrz/rp/cli"
+	"github.com/magicniko/rp/cli"
 )
 
 func main() {

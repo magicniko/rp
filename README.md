@@ -3,14 +3,14 @@
 
 > A reverse proxy server is an intermediate connection point positioned at a network’s edge. It receives initial HTTP connection requests, acting like the actual endpoint.
 
-<img src="https://raw.githubusercontent.com/ahmdrz/rp/master/resources/reverse-proxy.jpg" width="100%"/>
+<img src="https://raw.githubusercontent.com/magicniko/rp/master/resources/reverse-proxy.jpg" width="100%"/>
 
 Image credit: <a href="https://www.imperva.com/learn/performance/reverse-proxy/">What is Reverse Proxy</a>
 
 ### Installation
 
 ```
-$ go get -u github.com/ahmdrz/rp
+$ go get -u github.com/magicniko/rp
 ```
 
 ### CommandLine
@@ -51,7 +51,7 @@ import (
   "log"
   "net/url"
   
-  rp "github.com/ahmdrz/rp/reverse-proxy"
+  rp "github.com/magicniko/rp/reverse-proxy"
 )
 
 func newURL(addr string) *url.URL {
@@ -82,7 +82,7 @@ func main() {
 ### Using Docker
 
 ```dockerfile
-FROM ahmdrz/rp:latest
+FROM magicniko/rp:latest
 COPY rpconfig.yaml .
 EXPOSE 8080
 CMD ["rp", "--verbose", "serve"]

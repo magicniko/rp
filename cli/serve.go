@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"os"
 
-	rp "github.com/ahmdrz/rp/reverse-proxy"
+	rp "github.com/magicniko/rp/reverse-proxy"
 	"github.com/urfave/cli"
 	"gopkg.in/yaml.v2"
 )

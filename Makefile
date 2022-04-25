@@ -1,5 +1,5 @@
 all: 
-	@go build -i -race -o rp
+	@go build -o rp
 clean:
 	rm -f rp
 install: all

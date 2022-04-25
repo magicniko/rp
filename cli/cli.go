@@ -17,7 +17,7 @@ func New() *Application {
 	app.Name = "rp"
 	app.Version = "0.0.1"
 	app.Usage = "reverse-proxy with weighted round-robin load-balancer."
-	app.Author = "Ahmadreza Zibaei (ahmdrz)"
+	app.Author = "Ahmadreza Zibaei (magicniko)"
 
 	app.Flags = []cli.Flag{
 		cli.BoolFlag{
